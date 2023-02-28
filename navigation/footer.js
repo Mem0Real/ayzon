@@ -9,7 +9,6 @@ const footer = () => {
         <a className="flex title-font font-medium items-center justify-center text-black border border-y-0 rounded-md border-r-0 border-l-0 mr-2">
           <span className="mx-5 text-xl">Ayzon</span>
         </a>
-        {/* <div className="hidden md:block border border-y-0 border-l-0 h-7 mx-5"></div> */}
         <p className="text-sm text-black pl-2 sm:ml-4 sm:pl-4 sm:border-l-2 mt-2 md:mt-0 sm:border-gray-800 sm:py-2 sm:mt-0">
           © 2023 All Rights Reserved
         </p>

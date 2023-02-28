@@ -7,9 +7,9 @@ import img3 from "../public/images/img3.jpg";
 export default function Home() {
   return (
     <Layout>
-      <div className="box-border text-center bg-slate-200">
+      <div className="box-border text-center bg-slate-200  dark:bg-slate-900">
         <header className="flex flex-col justify-center items-center text-2xl h-screen bg-heroBg bg-no-repeat bg-center bg-cover bg-fixed">
-          <h1 className="lg:mt-12 border-x-2 px-12 py-6 mb-12 rounded-md text-3xl backdrop-blur-md backdrop-opacity-75 tracking-wide">
+          <h1 className="lg:mt-12 border-x-2 px-12 py-6 mb-12 rounded-md text-3xl backdrop-blur-md backdrop-opacity-75 text-black">
             Welcome To <br />
             Ayzon Manufacturing
           </h1>

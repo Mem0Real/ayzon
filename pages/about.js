@@ -25,7 +25,8 @@ const about = () => {
             <h2 className="underline mt-6 text-2xl">Vision</h2>
             <ul className="mt-5 py-6">
               <li>
-                To open multiple factories as well as supplying stores all across Ethiopia.
+                To open multiple factories as well as supplying stores all
+                across Ethiopia.
               </li>
               <li>To export and increase our country&apos;s economy.</li>
             </ul>
