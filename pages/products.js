@@ -4,9 +4,9 @@ import Nuka from "../carousel/Nuka";
 
 const products = () => {
   return (
-    <div className="bg-productsBg bg-fixed">
+    <div className="bg-productsBg bg-fixed bg-center bg-no-repeat bg-cover">
       <Layout>
-        <div className="h-56 flex flex-col md:mt-36 mt-0 justify-start items-center">
+        <div className="h-56 flex flex-col pt-36 justify-start items-center">
           <h1 className="text-3xl backdrop-blur-lg border-x-8 border-x-yellow-700 rounded-xl text-center md:px-12 px-2 text-white">
             Some Of The Products <br />
             We Offer Include
@@ -16,10 +16,10 @@ const products = () => {
         <section className="text-gray-600 body-font">
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-20">
-              <h1 className="text-2xl font-medium title-font mb-4 text-gray-300 tracking-widest">
+              <h1 className="text-2xl font-medium title-font mb-4 text-gray-300 underline underline-offset-8">
                 Upper Body
               </h1>
-              <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+              <p className="lg:w-2/3 mx-auto leading-relaxed text-white">
                 We have got the finest and most reliable upper body clothing and
                 accessories for all intends and purposes. <br />
                 Browse below to your heart&apos;s content.
@@ -37,7 +37,7 @@ const products = () => {
                     <h2 className="title-font font-medium text-lg text-gray-200">
                       HeadWear
                     </h2>
-                    <p className="mb-4">
+                    <p className="mb-4 text-white">
                       Top of the line hats, helmets, glasses, masks and so many
                       more. We can provide as individual or in bulk.
                     </p>
@@ -55,7 +55,7 @@ const products = () => {
                     <h2 className="title-font font-medium text-lg text-gray-200">
                       Shirts
                     </h2>
-                    <p className="mb-4">
+                    <p className="mb-4 text-white">
                       Flawless shirts with a variety of color and size options
                       as well as fabrics are at your disposal.
                     </p>
@@ -73,7 +73,7 @@ const products = () => {
                     <h2 className="title-font font-medium text-lg text-gray-200">
                       T-Shirts
                     </h2>
-                    <p className="mb-4">
+                    <p className="mb-4 text-white">
                       We offer Durable, Classy and Custom graphics designs to be
                       printed on them.
                     </p>
@@ -91,7 +91,7 @@ const products = () => {
                     <h2 className="title-font font-medium text-lg text-gray-200">
                       Jackets
                     </h2>
-                    <p className="mb-4">
+                    <p className="mb-4 text-white">
                       Heavy duty, light coats, rain coats and so much more
                       merchandises are available to your needs.
                     </p>
@@ -105,10 +105,10 @@ const products = () => {
         <section className="text-gray-600 body-font">
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-20">
-              <h1 className="text-2xl font-medium title-font mb-4 text-gray-300 tracking-widest">
+              <h1 className="text-2xl font-medium title-font mb-4 text-gray-300 underline underline-offset-8">
                 Lower Body
               </h1>
-              <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+              <p className="lg:w-2/3 mx-auto leading-relaxed text-white">
                 We have provided a variety of options regarding clothings,
                 accessories and footwear for our dear customers.
               </p>
@@ -125,7 +125,7 @@ const products = () => {
                     <h2 className="title-font font-medium text-lg text-gray-200">
                       Belts
                     </h2>
-                    <p className="mb-4">
+                    <p className="mb-4 text-white">
                       Leather, synthetic or even utility belts are waiting for
                       your purchase.
                     </p>
@@ -143,7 +143,7 @@ const products = () => {
                     <h2 className="title-font font-medium text-lg text-gray-200">
                       Shorts
                     </h2>
-                    <p className="mb-4">
+                    <p className="mb-4 text-white">
                       Be it sporting shorts, cargo shorts or street shorts, we
                       have them all.
                     </p>
@@ -161,7 +161,7 @@ const products = () => {
                     <h2 className="title-font font-medium text-lg text-gray-200">
                       Trousers
                     </h2>
-                    <p className="mb-4">
+                    <p className="mb-4 text-white">
                       Jeans, khakis, pijamas and everything in between, these
                       indestructable apparels won&apos;t disappoint you.
                     </p>
@@ -179,7 +179,7 @@ const products = () => {
                     <h2 className="title-font font-medium text-lg text-gray-200">
                       Shoes
                     </h2>
-                    <p className="mb-4">
+                    <p className="mb-4 text-white">
                       You can choose from a vast amount of shoes collections
                       based on your needs. From slippers to construction boots,
                       we offer them at great prices.

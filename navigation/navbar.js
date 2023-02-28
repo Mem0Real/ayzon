@@ -10,10 +10,10 @@ export default function Navbar() {
   };
 
   return (
-    <header className="text-gray-900 body-font bg-slate-300">
+    <header className="text-gray-900 body-font bg-slate-300 dark:bg-slate-900 dark:text-gray-300 fixed w-full top-0 z-50">
       <div className="container mx-auto flex flex-wrap p-5 flex-row items-center justify-between">
         <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-          <span className="text-xl pt-5 md:pt-0">AYZON</span>
+          <span className="text-xl pt-5 md:pt-0">Ayzon</span>
         </a>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
           {/* Default Menu */}
@@ -22,7 +22,7 @@ export default function Navbar() {
               <li className="px-2">
                 <Link
                   href="/"
-                  className="lg:mx-2 mx-3 hover:text-gray-900 cursor-pointer hover:underline underline-offset-4"
+                  className="lg:mx-2 mx-3 hover:text-gray-900 cursor-pointer hover:underline underline-offset-4 text-sm"
                 >
                   Home
                 </Link>
@@ -30,7 +30,7 @@ export default function Navbar() {
               <li className="px-2">
                 <Link
                   href="/products"
-                  className="lg:mx-2 mx-3 hover:text-gray-900 cursor-pointer hover:underline underline-offset-4"
+                  className="lg:mx-2 mx-3 hover:text-gray-900 cursor-pointer hover:underline underline-offset-4 text-sm"
                 >
                   Products
                 </Link>
@@ -38,7 +38,7 @@ export default function Navbar() {
               <li className="px-2">
                 <Link
                   href="/about"
-                  className="lg:mx-2 mx-3 hover:text-gray-900 cursor-pointer hover:underline underline-offset-4"
+                  className="lg:mx-2 mx-3 hover:text-gray-900 cursor-pointer hover:underline underline-offset-4 text-sm"
                 >
                   About
                 </Link>
@@ -46,7 +46,7 @@ export default function Navbar() {
               <li className="px-2">
                 <Link
                   href="/contact"
-                  className="lg:mx-2 mx-3 hover:text-gray-900 cursor-pointer hover:underline underline-offset-4"
+                  className="lg:mx-2 mx-3 hover:text-gray-900 cursor-pointer hover:underline underline-offset-4 text-sm"
                 >
                   Contact Us
                 </Link>

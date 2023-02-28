@@ -57,6 +57,7 @@ const Nuka = ({ name }) => {
             wrapAround={true}
             slidesToShow={1}
             autoplay={true}
+            pauseOnHover={false}
             cellAlign="center"
             speed={500}
             defaultControlsConfig={{
@@ -105,6 +106,7 @@ const Nuka = ({ name }) => {
             wrapAround={true}
             slidesToShow={1}
             autoplay={true}
+            pauseOnHover={false}
             cellAlign="center"
             speed={500}
             defaultControlsConfig={{
@@ -153,6 +155,7 @@ const Nuka = ({ name }) => {
             wrapAround={true}
             slidesToShow={1}
             autoplay={true}
+            pauseOnHover={false}
             cellAlign="center"
             speed={500}
             defaultControlsConfig={{
@@ -201,6 +204,7 @@ const Nuka = ({ name }) => {
             wrapAround={true}
             slidesToShow={1}
             autoplay={true}
+            pauseOnHover={false}
             cellAlign="center"
             speed={500}
             defaultControlsConfig={{
@@ -249,6 +253,7 @@ const Nuka = ({ name }) => {
             wrapAround={true}
             slidesToShow={1}
             autoplay={true}
+            pauseOnHover={false}
             cellAlign="center"
             speed={500}
             defaultControlsConfig={{
@@ -297,6 +302,7 @@ const Nuka = ({ name }) => {
             wrapAround={true}
             slidesToShow={1}
             autoplay={true}
+            pauseOnHover={false}
             cellAlign="center"
             speed={500}
             defaultControlsConfig={{
@@ -345,6 +351,7 @@ const Nuka = ({ name }) => {
             wrapAround={true}
             slidesToShow={1}
             autoplay={true}
+            pauseOnHover={false}
             cellAlign="center"
             speed={500}
             defaultControlsConfig={{
@@ -393,6 +400,7 @@ const Nuka = ({ name }) => {
             wrapAround={true}
             slidesToShow={1}
             autoplay={true}
+            pauseOnHover={false}
             cellAlign="center"
             speed={500}
             defaultControlsConfig={{
