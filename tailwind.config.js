@@ -13,6 +13,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         heroBg: "url('/images/hero2.jpg')",
+        productsBg: "url('/images/products.jpg')",
       },
     },
   },

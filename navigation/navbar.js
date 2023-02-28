@@ -13,12 +13,13 @@ export default function Navbar() {
     <header className="text-gray-900 body-font bg-slate-300">
       <div className="container mx-auto flex flex-wrap p-5 flex-row items-center justify-between">
         <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-          <span className="text-xl pt-5">AYZON</span>
+          <span className="text-xl pt-5 md:pt-0">AYZON</span>
         </a>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
+          {/* Default Menu */}
           <div className="">
             <ul className="hidden md:flex">
-              <li>
+              <li className="px-2">
                 <Link
                   href="/"
                   className="lg:mx-2 mx-3 hover:text-gray-900 cursor-pointer hover:underline underline-offset-4"
@@ -26,15 +27,15 @@ export default function Navbar() {
                   Home
                 </Link>
               </li>
-              <li>
+              <li className="px-2">
                 <Link
-                  href="/services"
+                  href="/products"
                   className="lg:mx-2 mx-3 hover:text-gray-900 cursor-pointer hover:underline underline-offset-4"
                 >
-                  Services
+                  Products
                 </Link>
               </li>
-              <li>
+              <li className="px-2">
                 <Link
                   href="/about"
                   className="lg:mx-2 mx-3 hover:text-gray-900 cursor-pointer hover:underline underline-offset-4"
@@ -42,7 +43,7 @@ export default function Navbar() {
                   About
                 </Link>
               </li>
-              <li>
+              <li className="px-2">
                 <Link
                   href="/contact"
                   className="lg:mx-2 mx-3 hover:text-gray-900 cursor-pointer hover:underline underline-offset-4"
@@ -64,9 +65,9 @@ export default function Navbar() {
                 className="w-6 h-6 text-gray-500"
                 x-show="!showMenu"
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
@@ -77,9 +78,13 @@ export default function Navbar() {
         </nav>
       </div>
       {/* Mobile Menu */}
-      <div className={`${active ? "flex" : "hidden"} justify-start ml-4 items-center py-2`}>
+      <div
+        className={`${
+          active ? "flex" : "hidden"
+        } justify-start ml-4 items-center py-2`}
+      >
         <ul>
-          <li>
+          <li className="py-2">
             <Link
               href="/"
               className="lg:mx-2 mx-3 hover:text-gray-900 cursor-pointer hover:underline underline-offset-4"
@@ -87,15 +92,15 @@ export default function Navbar() {
               Home
             </Link>
           </li>
-          <li>
+          <li className="py-2">
             <Link
-              href="/services"
+              href="/products"
               className="lg:mx-2 mx-3 hover:text-gray-900 cursor-pointer hover:underline underline-offset-4"
             >
-              Services
+              Products
             </Link>
           </li>
-          <li>
+          <li className="py-2">
             <Link
               href="/about"
               className="lg:mx-2 mx-3 hover:text-gray-900 cursor-pointer hover:underline underline-offset-4"
@@ -103,7 +108,7 @@ export default function Navbar() {
               About
             </Link>
           </li>
-          <li>
+          <li className="py-2">
             <Link
               href="/contact"
               className="lg:mx-2 mx-3 hover:text-gray-900 cursor-pointer hover:underline underline-offset-4"

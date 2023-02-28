@@ -2,6 +2,7 @@ import Layout from "../components/layout";
 import Image from "next/image";
 import img1 from "../public/images/img1.jpg";
 import img2 from "../public/images/img2.jpg";
+import img3 from "../public/images/img3.jpg";
 
 export default function Home() {
   return (
@@ -32,7 +33,7 @@ export default function Home() {
                 multitude of merchandises in a timely manner.
               </p>
             </div>
-            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
               <Image
                 className="object-cover object-center rounded-xl"
                 alt="img1"
@@ -91,11 +92,13 @@ export default function Home() {
                 our products in a lightning speed.
               </p>
             </div>
-            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-              <img
-                className="object-cover object-center rounded"
-                alt="hero"
-                src="https://dummyimage.com/720x600"
+            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+              <Image
+                className="object-cover object-center rounded-xl"
+                alt="img3"
+                src={img3}
+                width={500}
+                height={500}
               />
             </div>
           </div>
