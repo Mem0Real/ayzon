@@ -14,7 +14,7 @@ export default function Home() {
             Ayzon Manufacturing
           </h1>
         </header>
-        <div className="p-12 bg-slate-300">
+        <div className="p-12 bg-slate-300 border-y-2 border-gray-800">
           <h1 className="text-xl font-raleWay">
             We pride ourselves in the qualities of our products.
           </h1>
@@ -44,7 +44,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <div className="p-12 bg-slate-300">
+        <div className="p-12 bg-slate-300 border-y-2 border-gray-800">
           <h1 className="text-xl font-raleWay">
             Providing for all your clothing needs.
           </h1>
@@ -74,7 +74,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <div className="p-12 bg-slate-300">
+        <div className="p-12 bg-slate-300 border-y-2 border-gray-800">
           <h1 className="text-xl font-raleWay">
             We stand ready to provide you with your utmost desires.
           </h1>

@@ -4,7 +4,7 @@ import mem0real from "../public/images/Mem0Real.png";
 
 const footer = () => {
   return (
-    <footer className="text-black bg-slate-300 body-font flex flex-col md:flex-row">
+    <footer className="text-black bg-slate-300 body-font flex flex-col md:flex-row border-t-2 border-gray-600">
       <div className="container px-5 py-5 flex justify-start items-center flex-col md:flex-row basis-2/3">
         <a className="flex title-font font-medium items-center justify-center text-black border border-y-0 rounded-md border-r-0 border-l-0 mr-2">
           <span className="mx-5 text-xl font-Josefin">Ayzon</span>
