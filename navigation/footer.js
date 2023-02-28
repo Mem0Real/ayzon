@@ -7,7 +7,7 @@ const footer = () => {
     <footer className="text-black bg-slate-300 body-font flex flex-col md:flex-row">
       <div className="container px-5 py-5 flex justify-start items-center flex-col md:flex-row basis-2/3">
         <a className="flex title-font font-medium items-center justify-center text-black border border-y-0 rounded-md border-r-0 border-l-0 mr-2">
-          <span className="mx-5 text-xl">Ayzon</span>
+          <span className="mx-5 text-xl font-Josefin">Ayzon</span>
         </a>
         <p className="text-sm text-black pl-2 sm:ml-4 sm:pl-4 sm:border-l-2 mt-2 md:mt-0 sm:border-gray-800 sm:py-2 sm:mt-0">
           © 2023 All Rights Reserved

@@ -11,13 +11,15 @@ export default function Navbar() {
   return (
     <header className="text-gray-900 body-font bg-slate-300 fixed w-full top-0 z-50">
       <div className="container mx-auto flex flex-wrap p-5 flex-row items-center justify-between">
-        <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-          <span className="text-xl pt-5 md:pt-0">Ayzon</span>
-        </a>
+        <div className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+          <Link href="/" className="text-xl pt-5 md:pt-0 font-Josefin">
+            Ayzon
+          </Link>
+        </div>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
           {/* Default Menu */}
           <div className="">
-            <ul className="hidden md:flex">
+            <ul className="hidden md:flex font-Josefin">
               <li className="px-2">
                 <Link
                   href="/"

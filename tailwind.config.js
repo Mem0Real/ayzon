@@ -16,6 +16,11 @@ module.exports = {
         productsBg: "url('/images/products.jpg')",
         aboutBg: "url('/images/about.jpg')",
       },
+      fontFamily: {
+        Josefin: ["Josefin Sans"],
+        audioWide: ["AudioWide"],
+        raleWay: ["Raleway"],
+      },
     },
   },
   plugins: [require("daisyui")],
