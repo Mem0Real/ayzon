@@ -12,6 +12,7 @@ const products = () => {
             We Offer Include
           </h1>
         </div>
+        <div className="h-6 mt-12 rounded-3xl bg-transparent border-y-4 border-double w-5/6 mx-auto"></div>
         {/* Upper Body */}
         <section className="text-gray-600 body-font">
           <div className="container px-5 py-24 mx-auto">
@@ -101,6 +102,7 @@ const products = () => {
             </div>
           </div>
         </section>
+        <div className="h-6 bg-transparent rounded-3xl border-y-4 border-double w-5/6 mx-auto"></div>
         {/* Lower Body */}
         <section className="text-gray-600 body-font">
           <div className="container px-5 py-24 mx-auto">
