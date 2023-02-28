@@ -20,7 +20,7 @@ const Contact = () => {
   return (
     <Layout>
       <section className="body-font pt-16">
-        <div className=" text-black flex justify-end items-end fixed md:ml-36 md:top-20 top-28 left-1/3">
+        <div className=" text-black flex justify-end items-end fixed md:ml-36 md:top-20 top-28 ml-2 left-1/3">
           <button
             className="border-2 border-black px-2 py-1 my-2 rounded-lg text-md z-40 backdrop-blur-2xl"
             onClick={handleOpen}
