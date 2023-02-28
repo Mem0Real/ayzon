@@ -84,7 +84,7 @@ export default function Navbar() {
           active ? "flex" : "hidden"
         } justify-start ml-4 items-center py-2`}
       >
-        <ul>
+        <ul className="font-Josefin">
           <li className="py-2">
             <Link
               href="/"
