@@ -96,7 +96,7 @@ export default function Navbar() {
           <li className="py-2">
             <Link
               href="/products"
-              className="lg:mx-2 mx-3 hover:text-gray-900 cursor-pointer hover:underline underline-offset-4"
+              className="lg:mx-20 mx-3 hover:text-gray-900 cursor-pointer hover:underline underline-offset-4"
             >
               Products
             </Link>

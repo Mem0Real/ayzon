@@ -3,51 +3,67 @@ import Carousel from "nuka-carousel/lib/carousel";
 import Image from "next/image";
 import { easeCircleOut, easeElasticOut } from "d3-ease";
 
-import headWear1 from "../public/images/headWear/headWear1.png";
-import headWear2 from "../public/images/headWear/headWear2.png";
-import headWear3 from "../public/images/headWear/headWear3.png";
-import headWear4 from "../public/images/headWear/headWear4.png";
+import cape1 from "../public/images/capes/1.png";
+import cape2 from "../public/images/capes/2.png";
+import cape3 from "../public/images/capes/3.png";
+import cape4 from "../public/images/capes/4.png";
+import cape5 from "../public/images/capes/5.png";
+import cape6 from "../public/images/capes/6.png";
+import cape7 from "../public/images/capes/7.png";
 
-import shirt1 from "../public/images/shirts/shirt1.png";
-import shirt2 from "../public/images/shirts/shirt2.png";
-import shirt3 from "../public/images/shirts/shirt3.png";
-import shirt4 from "../public/images/shirts/shirt4.png";
+import embroidery1 from "../public/images/embroidery/1.png";
+import embroidery2 from "../public/images/embroidery/2.png";
+import embroidery3 from "../public/images/embroidery/3.png";
+import embroidery4 from "../public/images/embroidery/4.png";
+import embroidery5 from "../public/images/embroidery/5.png";
+import embroidery6 from "../public/images/embroidery/6.png";
+import embroidery7 from "../public/images/embroidery/7.png";
 
-import tshirt1 from "../public/images/tshirts/tshirt1.png";
-import tshirt2 from "../public/images/tshirts/tshirt2.png";
-import tshirt3 from "../public/images/tshirts/tshirt3.png";
-import tshirt4 from "../public/images/tshirts/tshirt4.png";
+import medical1 from "../public/images/medical/1.png";
+import medical2 from "../public/images/medical/2.png";
+import medical3 from "../public/images/medical/3.png";
+import medical4 from "../public/images/medical/4.png";
+import medical5 from "../public/images/medical/5.png";
+import medical6 from "../public/images/medical/6.png";
+import medical7 from "../public/images/medical/7.png";
 
-import jacket1 from "../public/images/jackets/jacket1.png";
-import jacket2 from "../public/images/jackets/jacket2.png";
-import jacket3 from "../public/images/jackets/jacket3.png";
-import jacket4 from "../public/images/jackets/jacket4.png";
+import safety1 from "../public/images/safety/1.png";
+import safety2 from "../public/images/safety/2.png";
+import safety3 from "../public/images/safety/3.png";
+import safety4 from "../public/images/safety/4.png";
+import safety5 from "../public/images/safety/5.png";
+import safety6 from "../public/images/safety/6.png";
+import safety7 from "../public/images/safety/7.png";
 
-import belt1 from "../public/images/belts/belt1.png";
-import belt2 from "../public/images/belts/belt2.png";
-import belt3 from "../public/images/belts/belt3.png";
-import belt4 from "../public/images/belts/belt4.png";
+import school1 from "../public/images/school/1.png";
+import school2 from "../public/images/school/2.png";
+import school3 from "../public/images/school/3.png";
+import school4 from "../public/images/school/4.png";
+import school5 from "../public/images/school/5.png";
+import school6 from "../public/images/school/6.png";
+import school7 from "../public/images/school/7.png";
 
-import short1 from "../public/images/shorts/short1.png";
-import short2 from "../public/images/shorts/short2.png";
-import short3 from "../public/images/shorts/short3.png";
-import short4 from "../public/images/shorts/short4.png";
+import security1 from "../public/images/security/1.png";
+import security2 from "../public/images/security/2.png";
+import security3 from "../public/images/security/3.png";
+import security4 from "../public/images/security/4.png";
+import security5 from "../public/images/security/5.png";
+import security6 from "../public/images/security/6.png";
+import security7 from "../public/images/security/7.png";
 
-import trouser1 from "../public/images/trousers/trouser1.png";
-import trouser2 from "../public/images/trousers/trouser2.png";
-import trouser3 from "../public/images/trousers/trouser3.png";
-import trouser4 from "../public/images/trousers/trouser4.png";
-
-import shoes1 from "../public/images/shoes/shoes1.png";
-import shoes2 from "../public/images/shoes/shoes2.png";
-import shoes3 from "../public/images/shoes/shoes3.png";
-import shoes4 from "../public/images/shoes/shoes4.png";
+import working1 from "../public/images/working/1.png";
+import working2 from "../public/images/working/2.png";
+import working3 from "../public/images/working/3.png";
+import working4 from "../public/images/working/4.png";
+import working5 from "../public/images/working/5.png";
+import working6 from "../public/images/working/6.png";
+import working7 from "../public/images/working/7.png";
 
 const Nuka = ({ name }) => {
   const __dirName = `/images/${name}/`;
 
   switch (name) {
-    case "headWear":
+    case "capes":
       return (
         <div className="w-auto sm:w-auto xs:w-auto md:w-96 h-fit">
           <Carousel
@@ -66,28 +82,50 @@ const Nuka = ({ name }) => {
             }}
           >
             <Image
-              src={headWear1}
+              src={cape1}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
               height={500}
             />
             <Image
-              src={headWear2}
+              src={cape2}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
               height={500}
             />
             <Image
-              src={headWear3}
+              src={cape3}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
               height={500}
             />
             <Image
-              src={headWear4}
+              src={cape4}
+              alt={`${name} image`}
+              className="object-contain h-56 w-full"
+              width={500}
+              height={500}
+            />
+
+            <Image
+              src={cape5}
+              alt={`${name} image`}
+              className="object-contain h-56 w-full"
+              width={500}
+              height={500}
+            />
+            <Image
+              src={cape6}
+              alt={`${name} image`}
+              className="object-contain h-56 w-full"
+              width={500}
+              height={500}
+            />
+            <Image
+              src={cape7}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
@@ -96,7 +134,7 @@ const Nuka = ({ name }) => {
           </Carousel>
         </div>
       );
-    case "shirts":
+    case "embroidery":
       return (
         <div className="w-auto sm:w-auto xs:w-auto md:w-96 h-fit">
           <Carousel
@@ -115,28 +153,50 @@ const Nuka = ({ name }) => {
             }}
           >
             <Image
-              src={shirt1}
+              src={embroidery1}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
               height={500}
             />
             <Image
-              src={shirt2}
+              src={embroidery2}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
               height={500}
             />
             <Image
-              src={shirt3}
+              src={embroidery3}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
               height={500}
             />
             <Image
-              src={shirt4}
+              src={embroidery4}
+              alt={`${name} image`}
+              className="object-contain h-56 w-full"
+              width={500}
+              height={500}
+            />
+
+            <Image
+              src={embroidery5}
+              alt={`${name} image`}
+              className="object-contain h-56 w-full"
+              width={500}
+              height={500}
+            />
+            <Image
+              src={embroidery6}
+              alt={`${name} image`}
+              className="object-contain h-56 w-full"
+              width={500}
+              height={500}
+            />
+            <Image
+              src={embroidery7}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
@@ -145,7 +205,7 @@ const Nuka = ({ name }) => {
           </Carousel>
         </div>
       );
-    case "tshirts":
+    case "medical":
       return (
         <div className="w-auto sm:w-auto xs:w-auto md:w-96 h-fit">
           <Carousel
@@ -164,28 +224,50 @@ const Nuka = ({ name }) => {
             }}
           >
             <Image
-              src={tshirt1}
+              src={medical1}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
               height={500}
             />
             <Image
-              src={tshirt2}
+              src={medical2}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
               height={500}
             />
             <Image
-              src={tshirt3}
+              src={medical3}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
               height={500}
             />
             <Image
-              src={tshirt4}
+              src={medical4}
+              alt={`${name} image`}
+              className="object-contain h-56 w-full"
+              width={500}
+              height={500}
+            />
+
+            <Image
+              src={medical5}
+              alt={`${name} image`}
+              className="object-contain h-56 w-full"
+              width={500}
+              height={500}
+            />
+            <Image
+              src={medical6}
+              alt={`${name} image`}
+              className="object-contain h-56 w-full"
+              width={500}
+              height={500}
+            />
+            <Image
+              src={medical7}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
@@ -194,7 +276,7 @@ const Nuka = ({ name }) => {
           </Carousel>
         </div>
       );
-    case "jackets":
+    case "safety":
       return (
         <div className="w-auto sm:w-auto xs:w-auto md:w-96 h-fit">
           <Carousel
@@ -213,28 +295,50 @@ const Nuka = ({ name }) => {
             }}
           >
             <Image
-              src={jacket1}
+              src={safety1}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
               height={500}
             />
             <Image
-              src={jacket2}
+              src={safety2}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
               height={500}
             />
             <Image
-              src={jacket3}
+              src={safety3}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
               height={500}
             />
             <Image
-              src={jacket4}
+              src={safety4}
+              alt={`${name} image`}
+              className="object-contain h-56 w-full"
+              width={500}
+              height={500}
+            />
+
+            <Image
+              src={safety5}
+              alt={`${name} image`}
+              className="object-contain h-56 w-full"
+              width={500}
+              height={500}
+            />
+            <Image
+              src={safety6}
+              alt={`${name} image`}
+              className="object-contain h-56 w-full"
+              width={500}
+              height={500}
+            />
+            <Image
+              src={safety7}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
@@ -243,7 +347,7 @@ const Nuka = ({ name }) => {
           </Carousel>
         </div>
       );
-    case "belts":
+    case "school":
       return (
         <div className="w-auto sm:w-auto xs:w-auto md:w-96 h-fit">
           <Carousel
@@ -262,28 +366,50 @@ const Nuka = ({ name }) => {
             }}
           >
             <Image
-              src={belt1}
+              src={school1}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
               height={500}
             />
             <Image
-              src={belt2}
+              src={school2}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
               height={500}
             />
             <Image
-              src={belt3}
+              src={school3}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
               height={500}
             />
             <Image
-              src={belt4}
+              src={school4}
+              alt={`${name} image`}
+              className="object-contain h-56 w-full"
+              width={500}
+              height={500}
+            />
+
+            <Image
+              src={school5}
+              alt={`${name} image`}
+              className="object-contain h-56 w-full"
+              width={500}
+              height={500}
+            />
+            <Image
+              src={school6}
+              alt={`${name} image`}
+              className="object-contain h-56 w-full"
+              width={500}
+              height={500}
+            />
+            <Image
+              src={school7}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
@@ -292,7 +418,7 @@ const Nuka = ({ name }) => {
           </Carousel>
         </div>
       );
-    case "shorts":
+    case "security":
       return (
         <div className="w-auto sm:w-auto xs:w-auto md:w-96 h-fit">
           <Carousel
@@ -311,28 +437,50 @@ const Nuka = ({ name }) => {
             }}
           >
             <Image
-              src={short1}
+              src={security1}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
               height={500}
             />
             <Image
-              src={short2}
+              src={security2}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
               height={500}
             />
             <Image
-              src={short3}
+              src={security3}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
               height={500}
             />
             <Image
-              src={short4}
+              src={security4}
+              alt={`${name} image`}
+              className="object-contain h-56 w-full"
+              width={500}
+              height={500}
+            />
+
+            <Image
+              src={security5}
+              alt={`${name} image`}
+              className="object-contain h-56 w-full"
+              width={500}
+              height={500}
+            />
+            <Image
+              src={security6}
+              alt={`${name} image`}
+              className="object-contain h-56 w-full"
+              width={500}
+              height={500}
+            />
+            <Image
+              src={security7}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
@@ -341,7 +489,7 @@ const Nuka = ({ name }) => {
           </Carousel>
         </div>
       );
-    case "trousers":
+    case "working":
       return (
         <div className="w-auto sm:w-auto xs:w-auto md:w-96 h-fit">
           <Carousel
@@ -360,77 +508,50 @@ const Nuka = ({ name }) => {
             }}
           >
             <Image
-              src={trouser1}
+              src={working1}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
               height={500}
             />
             <Image
-              src={trouser2}
+              src={working2}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
               height={500}
             />
             <Image
-              src={trouser3}
+              src={working3}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
               height={500}
             />
             <Image
-              src={trouser4}
+              src={working4}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
               height={500}
             />
-          </Carousel>
-        </div>
-      );
-    case "shoes":
-      return (
-        <div className="w-auto sm:w-auto xs:w-auto md:w-96 h-fit">
-          <Carousel
-            easing={easeCircleOut}
-            edgeEasing={easeElasticOut}
-            dragging={true}
-            wrapAround={true}
-            slidesToShow={1}
-            autoplay={true}
-            pauseOnHover={false}
-            cellAlign="center"
-            speed={500}
-            defaultControlsConfig={{
-              nextButtonText: ">",
-              prevButtonText: "<",
-            }}
-          >
+
             <Image
-              src={shoes1}
+              src={working5}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
               height={500}
             />
             <Image
-              src={shoes2}
+              src={working6}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
               height={500}
             />
             <Image
-              src={shoes3}
-              alt={`${name} image`}
-              className="object-contain h-56 w-full"
-              width={500}
-              height={500}
-            />
-            <Image
-              src={shoes4}
+              src={working7}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
