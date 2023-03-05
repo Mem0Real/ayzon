@@ -34,6 +34,7 @@ import safety4 from "../public/images/safety/4.png";
 import safety5 from "../public/images/safety/5.png";
 import safety6 from "../public/images/safety/6.png";
 import safety7 from "../public/images/safety/7.png";
+import safety8 from "../public/images/safety/8.png";
 
 import school1 from "../public/images/school/1.png";
 import school2 from "../public/images/school/2.png";
@@ -339,6 +340,13 @@ const Nuka = ({ name }) => {
             />
             <Image
               src={safety7}
+              alt={`${name} image`}
+              className="object-contain h-56 w-full"
+              width={500}
+              height={500}
+            />
+            <Image
+              src={safety8}
               alt={`${name} image`}
               className="object-contain h-56 w-full"
               width={500}
