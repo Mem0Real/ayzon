@@ -2,7 +2,7 @@ import Layout from "../components/layout";
 import Image from "next/image";
 import img1 from "../public/images/i1.jpg";
 import img2 from "../public/images/i2.jpg";
-import img3 from "../public/images/i3.jpg";
+import img3 from "../public/images/i33.jpeg";
 
 export default function Home() {
   return (
@@ -11,7 +11,8 @@ export default function Home() {
         <div className="flex flex-col justify-center items-center text-2xl h-screen bg-heroBg bg-no-repeat bg-center bg-cover bg-fixed">
           <h1 className="lg:mt-12 border-x-4 border-black px-12 py-6 mb-12 rounded-md text-3xl backdrop-blur-3xl backdrop-brightness-0 backdrop-opacity-50 font-Josefin shadow-2xl shadow-black">
             Welcome To <br />
-            Ayzon Manufacturing
+            Ayzon <br />
+            Uniform Manufacturing
           </h1>
         </div>
         <div className="bg-slate-300 p-12 border-y-2 border-gray-800 text-black">

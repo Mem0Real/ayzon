@@ -1,5 +1,7 @@
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import logo from "../public/images/logo.png";
 
 export default function Navbar() {
   const [active, setActive] = useState(false);
@@ -12,6 +14,7 @@ export default function Navbar() {
     <header className="text-gray-900 body-font bg-slate-300 fixed w-full top-0 z-50">
       <div className="container mx-auto flex flex-wrap p-5 flex-row items-center justify-between">
         <div className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+          <Image src={logo} width={60} height={60} alt="" className="mr-5 rounded-full shadow-2xl shadow-black mt-3 md:mt-0"/>
           <Link href="/" className="text-xl pt-5 md:pt-0 font-Josefin">
             Ayzon
           </Link>
