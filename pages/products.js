@@ -72,7 +72,7 @@ const products = () => {
                   </div>
                   <div className="flex-grow text-center mt-0 lg:mt-12">
                     <h2 className="title-font font-medium text-lg text-gray-200 font-Josefin">
-                      Medical Uniform
+                      Medical Scrubs
                     </h2>
                     <p className="mb-4 text-white font-raleWay">
                       Nurses, Doctors and all medical staff can depend on our
