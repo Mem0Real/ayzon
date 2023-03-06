@@ -20,7 +20,7 @@ const Contact = () => {
   return (
     <Layout>
       <section className="body-font pt-16">
-        <div className=" text-black flex justify-end items-end fixed md:ml-36 md:top-20 top-28 ml-2 left-1/3">
+        <div className=" text-black flex justify-end items-end fixed md:ml-44 md:top-24 top-28 ml-2 left-1/3">
           <button
             className="border-2 border-black px-2 py-1 my-2 rounded-lg text-md z-40 backdrop-blur-2xl font-Josefin"
             onClick={handleOpen}
@@ -146,7 +146,7 @@ const Contact = () => {
                         d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
                       />
                     </svg>
-                    <p>+251911753626</p>
+                    <span>+251911753626</span>
                   </p>
                   <p className=" flex py-5">
                     <svg
@@ -163,7 +163,7 @@ const Contact = () => {
                         d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
                       />
                     </svg>
-                    <p>+251913983846</p>
+                    <span>+251913983846</span>
                   </p>
                   <p className=" flex py-5">
                     <svg
@@ -180,12 +180,12 @@ const Contact = () => {
                         d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
                       />
                     </svg>
-                    <p>+251118239904</p>
+                    <span>+251118239904</span>
                   </p>
                 </div>
                 <hr />
                 {/* Email */}
-                <p className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start pt-12">
+                <p className="inline-flex flex-wrap sm:ml-auto sm:mt-0 mt-4 justify-center pt-12">
                   <svg
                     width="34"
                     height="34"
@@ -223,7 +223,7 @@ const Contact = () => {
                       fill="#ffffff"
                     ></path>
                   </svg>
-                  <p className="pl-3">selamu.gelaye12@gmail.com</p>
+                  <span className="md:pl-3">selamu.gelaye12@gmail.com</span>
                 </p>
                 {/* </div> */}
               </div>
